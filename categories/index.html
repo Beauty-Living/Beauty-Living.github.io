@@ -208,55 +208,6 @@
               </li>
             
               <li>
-                <a href="/archives">
-                  <span class="faa-parent animated-hover">
-                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
-                    归档
-                  </span>
-                </a>
-                
-                  <ul class="sub-menu">
-                    
-                      <li>
-                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
-                          <i class="fa fa-code" aria-hidden="true"></i>
-                          技术
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E7%94%9F%E6%B4%BB/">
-                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                          生活
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E8%B5%84%E6%BA%90/">
-                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                          资源
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E9%9A%8F%E6%83%B3/">
-                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                          随想
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E8%BD%AC%E8%BD%BD/">
-                          <i class="fa fa-book" aria-hidden="true"></i>
-                          转载
-                        </a>
-                      </li>
-                    
-                  </ul>
-                
-              </li>
-            
-              <li>
                 <a href="javascript:;">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
@@ -380,6 +331,16 @@
                       </li>
                     
                   </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
                 
               </li>
             
@@ -430,55 +391,6 @@
               </li>
             
               <li>
-                <a href="/archives">
-                  <span class="faa-parent animated-hover">
-                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
-                    归档
-                  </span>
-                </a>
-                
-                  <ul class="sub-menu">
-                    
-                      <li>
-                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
-                          <i class="fa fa-code" aria-hidden="true"></i>
-                          技术
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E7%94%9F%E6%B4%BB/">
-                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                          生活
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E8%B5%84%E6%BA%90/">
-                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                          资源
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E9%9A%8F%E6%83%B3/">
-                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                          随想
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/categories/%E8%BD%AC%E8%BD%BD/">
-                          <i class="fa fa-book" aria-hidden="true"></i>
-                          转载
-                        </a>
-                      </li>
-                    
-                  </ul>
-                
-              </li>
-            
-              <li>
                 <a href="javascript:;">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
@@ -605,6 +517,16 @@
                 
               </li>
             
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
           </ul>
         </nav>
       </div>
@@ -624,80 +546,13 @@
             </div>
             <div class="tag-chips">
                 
-                
-                
-                <a href="/categories/%E6%8A%80%E6%9C%AF/" title="技术: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">技术
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
+                categoryEmptyTip
                 
             </div>
         </div>
     </div>
 </div>
 
-
-    
-    <style type="text/css">
-    #category-radar {
-        margin-top: 50px;
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"技术","max":2}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [1],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
 
     
 
@@ -988,55 +843,6 @@ $(document).ready(function() {
       </li>
     
       <li>
-        <a href="/archives">
-          <span class="faa-parent animated-hover">
-            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
-            归档
-          </span>
-        </a>
-        
-          <ul class="sub-menu">
-            
-              <li>
-                <a href="/categories/%E6%8A%80%E6%9C%AF/">
-                  <i class="fa fa-code" aria-hidden="true"></i>
-                  技术
-                </a>
-              </li>
-            
-              <li>
-                <a href="/categories/%E7%94%9F%E6%B4%BB/">
-                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                  生活
-                </a>
-              </li>
-            
-              <li>
-                <a href="/categories/%E8%B5%84%E6%BA%90/">
-                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                  资源
-                </a>
-              </li>
-            
-              <li>
-                <a href="/categories/%E9%9A%8F%E6%83%B3/">
-                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                  随想
-                </a>
-              </li>
-            
-              <li>
-                <a href="/categories/%E8%BD%AC%E8%BD%BD/">
-                  <i class="fa fa-book" aria-hidden="true"></i>
-                  转载
-                </a>
-              </li>
-            
-          </ul>
-        
-      </li>
-    
-      <li>
         <a href="javascript:;">
           <span class="faa-parent animated-hover">
             <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
@@ -1160,6 +966,16 @@ $(document).ready(function() {
               </li>
             
           </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
         
       </li>
     

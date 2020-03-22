@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-20T04:34:29.888Z</updated>
+  <updated>2020-03-22T03:00:21.830Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>profile beauty test</title>
-    <link href="http://yoursite.com/2020/03/20/profile-beauty-test/"/>
-    <id>http://yoursite.com/2020/03/20/profile-beauty-test/</id>
-    <published>2020-03-20T04:32:03.000Z</published>
-    <updated>2020-03-20T04:34:29.888Z</updated>
+    <title>HEXO博客主题更换及美化</title>
+    <link href="http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/"/>
+    <id>http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/</id>
+    <published>2020-03-22T02:48:57.000Z</published>
+    <updated>2020-03-22T03:00:21.830Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>The second time</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>#更换HEXO博客页面的主题<br>一、下载HEXO主题<br>以next主题为例<br>在根目录下运行“git bash here”<br>输入”git clone <a href="https://github.com/iissnan/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next.git</a> themes/next”，然后回车<br>等待主题的自动下载完成<br>二、设置HEXO主题<br>在根目录下用记事本打开config.yml<br>找到”theme:”<br>输入“ next”<br>保存退出<br>在根目录下运行“git bash here”<br>输入“hexo s”<br>在本地查看新建的主题</p><p>##主题修改完成</p><p>三、主题美化<br>搜索引擎输入“HEXO的next主题美化”<br>自行寻找答案</p>]]></content>
     
     <summary type="html">
     
@@ -36,16 +36,86 @@
     
     
     
-      <category term="web" scheme="http://yoursite.com/tags/web/"/>
+  </entry>
+  
+  <entry>
+    <title>本地HEXO上传至公共网页</title>
+    <link href="http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/"/>
+    <id>http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/</id>
+    <published>2020-03-21T13:03:40.000Z</published>
+    <updated>2020-03-21T13:24:34.173Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照以下步骤，可将本地建立好的HEXO博客上传到公共网页中：<br>一、创建github账号<br>搜索引擎搜索“github”，按照流程正常创建即可</p><p>二、在自己的github账号中创建一个存储库<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img1.jpg" alt><br>选择new<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img2.jpg" alt><br>只填写“repository  name”和”Description”两个文本框<br>“repository  name”填写格式：github用户名.github.io<br>“Description”填写格式：“我的第一个博客”<br>然后点击“create responsitory”<br>将新页面中的“SSH”复制<br>本地”blog”文件夹下打开“_config.yml”<br>找到“type:”，输入” git”<br>下一行输入刚刚复制的SSH<br>找到”branch:”，输入”master”<br>保存记事本，关闭<br>在根目录下运行”git bash here”<br>执行”hexo d”命令，上传即可<br>此处会报错”FATAL: not remote to a repository”<br>此错误复制上行命令行自行百度，只需重新替换SSH密钥即可</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="建立hexo博客入门" scheme="http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
-    <title>the adult world</title>
+    <title>写第一篇自己的博客</title>
+    <link href="http://yoursite.com/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-03-21T12:53:57.000Z</published>
+    <updated>2020-03-21T13:24:57.385Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照以下步骤写自己的第一篇博客：<br>一、新建博客<br>(1)打开“blog”文件夹，在文件夹根目录右键选择”git bash here”<br>运行命令“   hexo new “filename”     ”命令<br>其中”filename”，是你想为这篇博文起的名字<br>(2)打开“blog”文件夹下的子文件夹”source”文件夹，在打开”_partial”文件夹，找到“filename.md”形式的博文文件，用记事本打开<br>博文的内容在最后一行的下一行输入，<br>对输入好的内容进行保存，返回根目录<br>(3)同上打开”git bash here”,运行”hexo s”,在本地预览即可看到自己的第一篇博文</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="建立hexo博客入门" scheme="http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>五步完成本地HEXO建立</title>
+    <link href="http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/</id>
+    <published>2020-03-21T12:34:36.000Z</published>
+    <updated>2020-03-21T13:24:47.934Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>创建本地项目进程非常简单，按照下面方式进行即可成功在本地创建hexo博客<br>一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装<br>二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装<br>三、本地运行cmd命令窗口<br>    node -v<br>    npm -v<br>    分别运行以上两行命令，接着运行“hexo -v”如果显示版本号，则说明确定“git，node.js”均成功下载<br>三、安装HEXO<br>(1)选择一个硬盘，在其根目录下创建一个“blog”文件夹，打开该文件夹<br>(2在“blog”文件夹中单击右键，选择“git bash here” -&gt; 运行一下命令<br>    npm install -g hexo<br>接着运行“hexo -v”如果显示版本号，则说明已经成功安装<br>四、HEXO初始化<br>以上都成功后，输入命令“hexo init”<br>五、本地HEXO查看<br>运行命令”hexo s”，复制里面的http本地地址，用浏览器打开，即可能够看到新建的HEXO博客</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="建立hexo博客入门" scheme="http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>welcome the new world</title>
     <link href="http://yoursite.com/2020/03/15/the-adult-s-world/"/>
     <id>http://yoursite.com/2020/03/15/the-adult-s-world/</id>
     <published>2020-03-15T03:04:48.000Z</published>
-    <updated>2020-03-15T03:30:03.253Z</updated>
+    <updated>2020-03-21T12:21:39.062Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=446935665&auto=1&height=66"></iframe><p>Life will be better,but you will not.Just because you are still in your dream lingering what you want to stay.<br>Time will be end,but you will not.Just because you finished your dream not just on the bed imagine.<br>Today is March 15,2020.In your world,It is nothing for any other.It is important for you to treasure time.<br>But don’t forget that everyone all same with you.We all need do the best ourselves in our lives try our best.<br>To protect who we love and want to protect.Then the society was born.<br>So,tell me.What’s the most important thing for everyone? Time.Your lives time.<br>Even if you can only do one thing in your life, help a small number of people.You should be contented.<br>After all, you are not only one in the world.<br>Thanks for your help.Trust me,the world can remember everyone who give benefit for person.</p><p><img src="/2020/03/15/the-adult-s-world/timg.jpg" alt></p>]]></content>
     
@@ -59,6 +129,8 @@
     </summary>
     
     
+    
+      <category term="web" scheme="http://yoursite.com/tags/web/"/>
     
   </entry>
   
@@ -81,29 +153,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Sakura美化教程</title>
-    <link href="http://yoursite.com/2019/05/26/GUI-Beauty/"/>
-    <id>http://yoursite.com/2019/05/26/GUI-Beauty/</id>
-    <published>2019-05-26T04:16:01.000Z</published>
-    <updated>2020-03-20T06:38:34.537Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      Sakura美化教程
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="http://yoursite.com/tags/web/"/>
     
   </entry>
   
