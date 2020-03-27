@@ -117,7 +117,7 @@
     <link href="http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/"/>
     <id>http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/</id>
     <published>2020-03-21T12:34:36.000Z</published>
-    <updated>2020-03-21T13:24:47.934Z</updated>
+    <updated>2020-03-27T01:35:03.125Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>创建本地项目进程非常简单，按照下面方式进行即可成功在本地创建hexo博客<br>一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装<br>二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装<br>三、本地运行cmd命令窗口<br>    node -v<br>    npm -v<br>    分别运行以上两行命令，接着运行“hexo -v”如果显示版本号，则说明确定“git，node.js”均成功下载<br>三、安装HEXO<br>(1)选择一个硬盘，在其根目录下创建一个“blog”文件夹，打开该文件夹<br>(2在“blog”文件夹中单击右键，选择“git bash here” -&gt; 运行一下命令<br>    npm install -g hexo<br>接着运行“hexo -v”如果显示版本号，则说明已经成功安装<br>四、HEXO初始化<br>以上都成功后，输入命令“hexo init”<br>五、本地HEXO查看<br>运行命令”hexo s”，复制里面的http本地地址，用浏览器打开，即可能够看到新建的HEXO博客</p>]]></content>
     
@@ -141,7 +141,7 @@
     <link href="http://yoursite.com/2020/03/15/the-adult-s-world/"/>
     <id>http://yoursite.com/2020/03/15/the-adult-s-world/</id>
     <published>2020-03-15T03:04:48.000Z</published>
-    <updated>2020-03-21T12:21:39.062Z</updated>
+    <updated>2020-03-27T01:27:33.518Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=446935665&auto=1&height=66"></iframe><p>Life will be better,but you will not.Just because you are still in your dream lingering what you want to stay.<br>Time will be end,but you will not.Just because you finished your dream not just on the bed imagine.<br>Today is March 15,2020.In your world,It is nothing for any other.It is important for you to treasure time.<br>But don’t forget that everyone all same with you.We all need do the best ourselves in our lives try our best.<br>To protect who we love and want to protect.Then the society was born.<br>So,tell me.What’s the most important thing for everyone? Time.Your lives time.<br>Even if you can only do one thing in your life, help a small number of people.You should be contented.<br>After all, you are not only one in the world.<br>Thanks for your help.Trust me,the world can remember everyone who give benefit for person.</p><p><img src="/2020/03/15/the-adult-s-world/timg.jpg" alt></p>]]></content>
     
