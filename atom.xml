@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-22T03:00:21.830Z</updated>
+  <updated>2020-03-25T13:36:08.088Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>生活纪实--心情垃圾桶--不喜勿看</title>
+    <link href="http://yoursite.com/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/"/>
+    <id>http://yoursite.com/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/</id>
+    <published>2020-03-25T13:13:19.000Z</published>
+    <updated>2020-03-25T13:36:08.088Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这只是一篇纪实，没有别的意思，不包含任何情绪</p><p>我爷爷一共生了两个儿子，我叔叔的老婆和我妈不和<br>二十年来，只见过她们之间的战争<br>我从来没有在乎过她们，也从来没有在意过母亲的委屈<br>我觉得两个人有矛盾一定是事出有因，两个人都有问题<br>现在我是真的明白，我还是不懂母亲的辛酸。<br>抢占他人土地用地，砍伐他人树木，背后去乡里邻里告小状影响邻里关系<br>这只是一部分，其他的母亲也不愿意说，不想让我沾边<br>以上一切都是为了纪实，公开透明，虽然总是乐意回忆过去的美好，但也不是小孩子了</p><p><img src="/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/timg.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="心情垃圾桶" scheme="http://yoursite.com/tags/%E5%BF%83%E6%83%85%E5%9E%83%E5%9C%BE%E6%A1%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HEXO博客主题更换及美化</title>
     <link href="http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/"/>
     <id>http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/</id>
     <published>2020-03-22T02:48:57.000Z</published>
-    <updated>2020-03-22T03:00:21.830Z</updated>
+    <updated>2020-03-22T03:05:59.060Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>#更换HEXO博客页面的主题<br>一、下载HEXO主题<br>以next主题为例<br>在根目录下运行“git bash here”<br>输入”git clone <a href="https://github.com/iissnan/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next.git</a> themes/next”，然后回车<br>等待主题的自动下载完成<br>二、设置HEXO主题<br>在根目录下用记事本打开config.yml<br>找到”theme:”<br>输入“ next”<br>保存退出<br>在根目录下运行“git bash here”<br>输入“hexo s”<br>在本地查看新建的主题</p><p>##主题修改完成</p><p>三、主题美化<br>搜索引擎输入“HEXO的next主题美化”<br>自行寻找答案</p>]]></content>
     
@@ -35,6 +59,8 @@
     </summary>
     
     
+    
+      <category term="建立hexo博客入门" scheme="http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
