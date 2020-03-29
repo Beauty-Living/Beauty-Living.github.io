@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-25T13:36:08.088Z</updated>
+  <updated>2020-03-29T07:16:22.698Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/"/>
     <id>http://yoursite.com/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/</id>
     <published>2020-03-25T13:13:19.000Z</published>
-    <updated>2020-03-25T13:36:08.088Z</updated>
+    <updated>2020-03-29T07:16:22.698Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这只是一篇纪实，没有别的意思，不包含任何情绪</p><p>我爷爷一共生了两个儿子，我叔叔的老婆和我妈不和<br>二十年来，只见过她们之间的战争<br>我从来没有在乎过她们，也从来没有在意过母亲的委屈<br>我觉得两个人有矛盾一定是事出有因，两个人都有问题<br>现在我是真的明白，我还是不懂母亲的辛酸。<br>抢占他人土地用地，砍伐他人树木，背后去乡里邻里告小状影响邻里关系<br>这只是一部分，其他的母亲也不愿意说，不想让我沾边<br>以上一切都是为了纪实，公开透明，虽然总是乐意回忆过去的美好，但也不是小孩子了</p><p><img src="/2020/03/25/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/timg.jpg" alt></p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/"/>
     <id>http://yoursite.com/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/</id>
     <published>2020-03-22T02:48:57.000Z</published>
-    <updated>2020-03-22T03:05:59.060Z</updated>
+    <updated>2020-03-29T07:17:24.339Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>#更换HEXO博客页面的主题<br>一、下载HEXO主题<br>以next主题为例<br>在根目录下运行“git bash here”<br>输入”git clone <a href="https://github.com/iissnan/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next.git</a> themes/next”，然后回车<br>等待主题的自动下载完成<br>二、设置HEXO主题<br>在根目录下用记事本打开config.yml<br>找到”theme:”<br>输入“ next”<br>保存退出<br>在根目录下运行“git bash here”<br>输入“hexo s”<br>在本地查看新建的主题</p><p>##主题修改完成</p><p>三、主题美化<br>搜索引擎输入“HEXO的next主题美化”<br>自行寻找答案</p>]]></content>
     
@@ -69,7 +69,7 @@
     <link href="http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/"/>
     <id>http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/</id>
     <published>2020-03-21T13:03:40.000Z</published>
-    <updated>2020-03-21T13:24:34.173Z</updated>
+    <updated>2020-03-29T07:16:47.210Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照以下步骤，可将本地建立好的HEXO博客上传到公共网页中：<br>一、创建github账号<br>搜索引擎搜索“github”，按照流程正常创建即可</p><p>二、在自己的github账号中创建一个存储库<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img1.jpg" alt><br>选择new<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img2.jpg" alt><br>只填写“repository  name”和”Description”两个文本框<br>“repository  name”填写格式：github用户名.github.io<br>“Description”填写格式：“我的第一个博客”<br>然后点击“create responsitory”<br>将新页面中的“SSH”复制<br>本地”blog”文件夹下打开“_config.yml”<br>找到“type:”，输入” git”<br>下一行输入刚刚复制的SSH<br>找到”branch:”，输入”master”<br>保存记事本，关闭<br>在根目录下运行”git bash here”<br>执行”hexo d”命令，上传即可<br>此处会报错”FATAL: not remote to a repository”<br>此错误复制上行命令行自行百度，只需重新替换SSH密钥即可</p>]]></content>
     
@@ -93,7 +93,7 @@
     <link href="http://yoursite.com/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-03-21T12:53:57.000Z</published>
-    <updated>2020-03-21T13:24:57.385Z</updated>
+    <updated>2020-03-29T07:16:02.993Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照以下步骤写自己的第一篇博客：<br>一、新建博客<br>(1)打开“blog”文件夹，在文件夹根目录右键选择”git bash here”<br>运行命令“   hexo new “filename”     ”命令<br>其中”filename”，是你想为这篇博文起的名字<br>(2)打开“blog”文件夹下的子文件夹”source”文件夹，在打开”_partial”文件夹，找到“filename.md”形式的博文文件，用记事本打开<br>博文的内容在最后一行的下一行输入，<br>对输入好的内容进行保存，返回根目录<br>(3)同上打开”git bash here”,运行”hexo s”,在本地预览即可看到自己的第一篇博文</p>]]></content>
     
@@ -117,7 +117,7 @@
     <link href="http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/"/>
     <id>http://yoursite.com/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/</id>
     <published>2020-03-21T12:34:36.000Z</published>
-    <updated>2020-03-27T01:35:03.125Z</updated>
+    <updated>2020-03-29T07:17:00.680Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>创建本地项目进程非常简单，按照下面方式进行即可成功在本地创建hexo博客<br>一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装<br>二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装<br>三、本地运行cmd命令窗口<br>    node -v<br>    npm -v<br>    分别运行以上两行命令，接着运行“hexo -v”如果显示版本号，则说明确定“git，node.js”均成功下载<br>三、安装HEXO<br>(1)选择一个硬盘，在其根目录下创建一个“blog”文件夹，打开该文件夹<br>(2在“blog”文件夹中单击右键，选择“git bash here” -&gt; 运行一下命令<br>    npm install -g hexo<br>接着运行“hexo -v”如果显示版本号，则说明已经成功安装<br>四、HEXO初始化<br>以上都成功后，输入命令“hexo init”<br>五、本地HEXO查看<br>运行命令”hexo s”，复制里面的http本地地址，用浏览器打开，即可能够看到新建的HEXO博客</p>]]></content>
     
@@ -141,9 +141,9 @@
     <link href="http://yoursite.com/2020/03/15/the-adult-s-world/"/>
     <id>http://yoursite.com/2020/03/15/the-adult-s-world/</id>
     <published>2020-03-15T03:04:48.000Z</published>
-    <updated>2020-03-27T01:27:33.518Z</updated>
+    <updated>2020-03-29T07:07:46.825Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=446935665&auto=1&height=66"></iframe><p>Life will be better,but you will not.Just because you are still in your dream lingering what you want to stay.<br>Time will be end,but you will not.Just because you finished your dream not just on the bed imagine.<br>Today is March 15,2020.In your world,It is nothing for any other.It is important for you to treasure time.<br>But don’t forget that everyone all same with you.We all need do the best ourselves in our lives try our best.<br>To protect who we love and want to protect.Then the society was born.<br>So,tell me.What’s the most important thing for everyone? Time.Your lives time.<br>Even if you can only do one thing in your life, help a small number of people.You should be contented.<br>After all, you are not only one in the world.<br>Thanks for your help.Trust me,the world can remember everyone who give benefit for person.</p><p><img src="/2020/03/15/the-adult-s-world/timg.jpg" alt></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=446935665&auto=1&height=66"></iframe>Life will be better,but you will not.Just because you are still in your dream lingering what you want to stay.Time will be end,but you will not.Just because you finished your dream not just on the bed imagine.Today is March 15,2020.In your world,It is nothing for any other.It is important for you to treasure time.But don't forget that everyone all same with you.We all need do the best ourselves in our lives try our best.To protect who we love and want to protect.Then the society was born.So,tell me.What's the most important thing for everyone? Time.Your lives time.Even if you can only do one thing in your life, help a small number of people.You should be contented.After all, you are not only one in the world. Thanks for your help.Trust me,the world can remember everyone who give benefit for person.<p><img src="/2020/03/15/the-adult-s-world/timg.jpg" alt></p>]]></content>
     
     <summary type="html">
     
@@ -165,7 +165,7 @@
     <link href="http://yoursite.com/2020/03/14/hello-world/"/>
     <id>http://yoursite.com/2020/03/14/hello-world/</id>
     <published>2020-03-14T08:01:34.211Z</published>
-    <updated>2020-03-14T08:01:34.212Z</updated>
+    <updated>2020-03-29T07:17:43.129Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     

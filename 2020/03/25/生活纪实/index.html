@@ -84,7 +84,9 @@
         </a>
       </div>
       <div class="header-info">
-        <p>See You Tomorrow,See You Yesterday.</p>
+        <!--<p>See You Tomorrow,See You Yesterday.</p>-->
+        <p id="jinrishici-sentence">正在加载今日诗词....</p>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         <div class="top-social_v2">
           <li id="bg-pre">
             <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
@@ -355,19 +357,36 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
 
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(http://q7xzdxlzj.bkt.clouddn.com/timg%20%282%29.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/timg%20%282%29.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      生活纪实--心情垃圾桶--不喜勿看</h1>
+      <p class="entry-census">
+        <span>
+          <a href="">
+            <img src="http://q7xzdxlzj.bkt.clouddn.com/timg%20%282%29.jpg">
+          </a>
+        </span>
+        <span>
+          <a href=""></a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-3-25<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
       <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
-        
-          <header class="entry-header">
-            <h1 class="entry-title">生活纪实--心情垃圾桶--不喜勿看</h1>
-            <p class="entry-census">&nbsp;·&nbsp;2020-3-25&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
-
-            <hr>
-          </header>
         
         <div class="entry-content">
           <p>这只是一篇纪实，没有别的意思，不包含任何情绪</p>
@@ -408,7 +427,7 @@
           
             <a href="/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/timg.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/timg.jpg">
               </div>
               <span class="label">
               Next Post</span>
@@ -442,7 +461,7 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="http://q7xzdxlzj.bkt.clouddn.com/timg%20%282%29.jpg" itemprop="image" alt="" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
@@ -952,3 +971,17 @@ $(document).ready(function() {
 </script>
 </body>
 </html>
+
+  <!-- wether -->
+  <div id="weather-view-he"></div>
+  <script>
+  WIDGET = {ID: '1u67wsw57R'};
+  </script> 
+  <script type="text/javascript" src="https://apip.weatherdt.com/view/static/js/r.js?v=1111"></script>
+
+<!--禁用一些键-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/noSomeKey.js"></script>
+
+<!--加入预加载-->
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+

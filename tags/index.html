@@ -84,7 +84,9 @@
         </a>
       </div>
       <div class="header-info">
-        <p>See You Tomorrow,See You Yesterday.</p>
+        <!--<p>See You Tomorrow,See You Yesterday.</p>-->
+        <p id="jinrishici-sentence">正在加载今日诗词....</p>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         <div class="top-social_v2">
           <li id="bg-pre">
             <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
@@ -557,19 +559,19 @@
                 </a>
                 
                 
-                <a href="/tags/web/" title="web: 1">
+                <a href="/tags/%E5%BF%83%E6%83%85%E5%9E%83%E5%9C%BE%E6%A1%B6/" title="心情垃圾桶: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="web" style="background-color: #F5EEF8;">web
+                            data-tagname="心情垃圾桶" style="background-color: #F5EEF8;">心情垃圾桶
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/%E5%BF%83%E6%83%85%E5%9E%83%E5%9C%BE%E6%A1%B6/" title="心情垃圾桶: 1">
+                <a href="/tags/web/" title="web: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="心情垃圾桶" style="background-color: #D5F5E3;">心情垃圾桶
+                            data-tagname="web" style="background-color: #D5F5E3;">web
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -598,7 +600,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"建立hexo博客入门","weight":4,"link":"http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"},{"text":"web","weight":1,"link":"http://yoursite.com/tags/web/"},{"text":"心情垃圾桶","weight":1,"link":"http://yoursite.com/tags/%E5%BF%83%E6%83%85%E5%9E%83%E5%9C%BE%E6%A1%B6/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"建立hexo博客入门","weight":4,"link":"http://yoursite.com/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"},{"text":"心情垃圾桶","weight":1,"link":"http://yoursite.com/tags/%E5%BF%83%E6%83%85%E5%9E%83%E5%9C%BE%E6%A1%B6/"},{"text":"web","weight":1,"link":"http://yoursite.com/tags/web/"}], {
         autoResize: true
     });
 </script>
@@ -1099,3 +1101,17 @@ $(document).ready(function() {
 </script>
 </body>
 </html>
+
+  <!-- wether -->
+  <div id="weather-view-he"></div>
+  <script>
+  WIDGET = {ID: '1u67wsw57R'};
+  </script> 
+  <script type="text/javascript" src="https://apip.weatherdt.com/view/static/js/r.js?v=1111"></script>
+
+<!--禁用一些键-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/noSomeKey.js"></script>
+
+<!--加入预加载-->
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+

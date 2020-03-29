@@ -84,7 +84,9 @@
         </a>
       </div>
       <div class="header-info">
-        <p>See You Tomorrow,See You Yesterday.</p>
+        <!--<p>See You Tomorrow,See You Yesterday.</p>-->
+        <p id="jinrishici-sentence">正在加载今日诗词....</p>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         <div class="top-social_v2">
           <li id="bg-pre">
             <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
@@ -375,7 +377,7 @@
           <i class="iconfont icon-text">
           </i>
         </div>
-        <img width="150" height="150" src="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+        <img width="150" height="150" src="http://q7xzdxlzj.bkt.clouddn.com/timg%20%282%29.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
       </a>
     </div>
     <h1 class="entry-title">
@@ -902,3 +904,17 @@ $(document).ready(function() {
 </script>
 </body>
 </html>
+
+  <!-- wether -->
+  <div id="weather-view-he"></div>
+  <script>
+  WIDGET = {ID: '1u67wsw57R'};
+  </script> 
+  <script type="text/javascript" src="https://apip.weatherdt.com/view/static/js/r.js?v=1111"></script>
+
+<!--禁用一些键-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/noSomeKey.js"></script>
+
+<!--加入预加载-->
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
