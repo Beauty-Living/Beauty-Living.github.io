@@ -389,8 +389,48 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <p>按照以下步骤，可将本地建立好的HEXO博客上传到公共网页中：<br>一、创建github账号<br>搜索引擎搜索“github”，按照流程正常创建即可</p>
-<p>二、在自己的github账号中创建一个存储库<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img1.jpg" alt><br>选择new<br><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img2.jpg" alt><br>只填写“repository  name”和”Description”两个文本框<br>“repository  name”填写格式：github用户名.github.io<br>“Description”填写格式：“我的第一个博客”<br>然后点击“create responsitory”<br>将新页面中的“SSH”复制<br>本地”blog”文件夹下打开“_config.yml”<br>找到“type:”，输入” git”<br>下一行输入刚刚复制的SSH<br>找到”branch:”，输入”master”<br>保存记事本，关闭<br>在根目录下运行”git bash here”<br>执行”hexo d”命令，上传即可<br>此处会报错”FATAL: not remote to a repository”<br>此错误复制上行命令行自行百度，只需重新替换SSH密钥即可</p>
+          <p>按照以下步骤，可将本地建立好的HEXO博客上传到公共网页中：</p>
+<h2 id="一、创建github账号"><a href="#一、创建github账号" class="headerlink" title="一、创建github账号"></a>一、创建github账号</h2><p>搜索引擎搜索“github”，按照流程正常创建即可</p>
+<h2 id="二、在自己的github账号中创建一个存储库"><a href="#二、在自己的github账号中创建一个存储库" class="headerlink" title="二、在自己的github账号中创建一个存储库"></a>二、在自己的github账号中创建一个存储库</h2><p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img1.jpg" alt>   </p>
+<h3 id="选择new"><a href="#选择new" class="headerlink" title="选择new"></a>选择new</h3><p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img2.jpg" alt></p>
+<h3 id="只填写“repository-name”和”Description”两个文本框"><a href="#只填写“repository-name”和”Description”两个文本框" class="headerlink" title="只填写“repository  name”和”Description”两个文本框"></a>只填写“repository  name”和”Description”两个文本框</h3><p>“repository  name”填写格式：github用户名.github.io<br>“Description”填写格式：“我的第一个博客”</p>
+<h3 id="然后点击“create-responsitory”"><a href="#然后点击“create-responsitory”" class="headerlink" title="然后点击“create responsitory”"></a>然后点击“create responsitory”</h3><h3 id="将新页面中的“SSH”复制"><a href="#将新页面中的“SSH”复制" class="headerlink" title="将新页面中的“SSH”复制"></a>将新页面中的“SSH”复制</h3><h3 id="本地”blog”文件夹下打开“-config-yml”"><a href="#本地”blog”文件夹下打开“-config-yml”" class="headerlink" title="本地”blog”文件夹下打开“_config.yml”"></a>本地”blog”文件夹下打开“_config.yml”</h3><ul>
+<li><p>找到“type:”，输入” git”</p>
+</li>
+<li><p>下一行输入刚刚复制的SSH</p>
+</li>
+<li><p>找到”branch:”，输入”master”</p>
+</li>
+<li><p>保存记事本，关闭</p>
+</li>
+</ul>
+<h3 id="在根目录下运行”git-bash-here”"><a href="#在根目录下运行”git-bash-here”" class="headerlink" title="在根目录下运行”git bash here”"></a>在根目录下运行”git bash here”</h3><ul>
+<li>执行”hexo d”命令，上传即可</li>
+</ul>
+<blockquote>
+<p>此处会报错”FATAL: not remote to a repository”</p>
+</blockquote>
+<p>登录GITHUB界面</p>
+<blockquote>
+<p>点击右上角图标,点击    Settings  选项</p>
+</blockquote>
+<p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img3.jpg" alt></p>
+<blockquote>
+<p>左边列表选择SSH and GPG keys</p>
+</blockquote>
+<p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img4.jpg" alt></p>
+<blockquote>
+<p>点击New SSH Keys</p>
+</blockquote>
+<p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img5.jpg" alt></p>
+<p>打开本地路径：C:\Users\john.ssh</p>
+<p>删除其中的id_rsa.pub和id_rsa文件</p>
+<p>在git 当中运行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+
+<p>将重新生成出的id_rsa.pub文件内容复制到github中的这里</p>
+<p><img src="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/img6.jpg" alt></p>
+<p>点击Add SSH Key  即可</p>
 
         </div>
         <!-- .entry-content -->

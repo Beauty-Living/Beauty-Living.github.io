@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">五步完成本地HEXO建立 | SpaceX</title>
+  <title itemprop="name">HEXO主题优化 | SpaceX</title>
   
     <link rel="shortcut icon" href="/images/star.ico">
   
@@ -357,30 +357,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      五步完成本地HEXO建立</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg">
-          </a>
-        </span>
-        <span>
-          <a href=""></a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2020-3-21<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -388,27 +364,40 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
+          <header class="entry-header">
+            <h1 class="entry-title">HEXO主题优化</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2020-5-24&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
         <div class="entry-content">
-          <p>创建本地项目进程非常简单，按照下面方式进行即可成功在本地创建hexo博客</p>
-<h2 id="一、搜索引擎搜索“git下载”-gt-进行git-的下载和安装"><a href="#一、搜索引擎搜索“git下载”-gt-进行git-的下载和安装" class="headerlink" title="一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装"></a>一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装</h2><p>如果觉得官网下载慢的可以用下面的网址：<a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/</a></p>
-<p>根据系统选择你下载的版本，最上面的为最新版本</p>
-<p>​                                                                </p>
-<h2 id="二、搜索引擎搜索“node-js下载”-gt-进行node-js的下载和安装"><a href="#二、搜索引擎搜索“node-js下载”-gt-进行node-js的下载和安装" class="headerlink" title="二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装"></a>二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装</h2><p>根据步骤进行下载安装即可，同GIT安装，一路NEXT</p>
-<h2 id="三、本地运行cmd命令窗口"><a href="#三、本地运行cmd命令窗口" class="headerlink" title="三、本地运行cmd命令窗口"></a>三、本地运行cmd命令窗口</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+          <h2 id="一、基本主题修改"><a href="#一、基本主题修改" class="headerlink" title="一、基本主题修改"></a>一、基本主题修改</h2><h3 id="1-顶部站点名字"><a href="#1-顶部站点名字" class="headerlink" title="1.顶部站点名字"></a>1.顶部站点名字</h3><p>这个是在 <strong>/themes/sakura/config.yml</strong> 这个配置文件中修改</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;site name</span><br><span class="line">prefixName: AoTeMan</span><br><span class="line">siteName: yremp</span><br><span class="line">url: https:&#x2F;&#x2F;yremp2.github.io&#x2F;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>其中，URL是点击后跳转地址</p>
+<p>由于我在 <strong>/themes/sakura/source/css/style.css</strong> 下自改了样式表去掉了 <strong>prefixName</strong> ,所以图上是没有的</p>
+<p>如果大家想修改相关的样式也可以去这个CSS文件中定义，这个文件是主要的CSS文件，大部分的样式都是由这个文件定义的。</p>
+<h3 id="2-顶部导航栏"><a href="#2-顶部导航栏" class="headerlink" title="2.顶部导航栏"></a>2.顶部导航栏</h3><p>这个在主题使用教程里面，作者好像是给出来了，大家可以仔细去阅读以下（当初我就是没有认真阅读爬了不少坑）这也是 <strong>/themes/sakura/config.yml</strong> 这个配置文件里面定义的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">menus:</span><br><span class="line">	首页:&#123;path: &#x2F;, fa: fas fa_home fa-1x&#125;</span><br><span class="line">	归档:&#123;&#125;</span><br><span class="line">	清单:&#123;&#125;</span><br><span class="line">	留言板:&#123;&#125;</span><br><span class="line">	友人帐:&#123;&#125;</span><br></pre></td></tr></table></figure>
 
-<p>​    分别运行以上两行命令，接着运行“hexo -v”如果显示版本号，则说明确定“git，node.js”均成功下载</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/-v.png" alt></p>
-<h2 id="三、安装HEXO"><a href="#三、安装HEXO" class="headerlink" title="三、安装HEXO"></a>三、安装HEXO</h2><p>(1)选择一个硬盘，在其根目录下创建一个“blog”文件夹，打开该文件夹</p>
-<p>(2)在“blog”文件夹中单击右键，选择“git bash here” -&gt; 运行一下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
+<p>前面的path是网页路径，这个不建议修改，但可以修改。后面的如: <strong>fa; fas fa-home fa-1x</strong> 这个就是对应的图标设置，关于这个图标大家可以去 <strong>fontawesome</strong>  看教程以及选择自己习惯的图标，导航栏下拉菜单的图标修改和导航栏相同。</p>
+<h3 id="3-头像"><a href="#3-头像" class="headerlink" title="3.头像"></a>3.头像</h3><p>很多小伙伴拿到主题后第一时间肯定是修改这个头像，毕竟这个比较能代表自己，那么这个头像配置在那？如果有经验的小伙伴肯定是自己就能找到，这个配置在：</p>
+<p><strong>/themes/sakura/config.yml</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cdn: https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;yremp&#x2F;cdn&amp;2.1.5</span><br><span class="line">avatar: &#x2F;img&#x2F;custom&#x2F;head.jpg</span><br></pre></td></tr></table></figure>
 
-<p>接着运行“hexo -v”如果显示版本号，则说明已经成功安装</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/hexo.png" alt>                                                                </p>
-<h2 id="四、HEXO初始化"><a href="#四、HEXO初始化" class="headerlink" title="四、HEXO初始化"></a>四、HEXO初始化</h2><p>以上都成功后，输入命令“hexo init”</p>
-<h2 id="五、本地HEXO查看"><a href="#五、本地HEXO查看" class="headerlink" title="五、本地HEXO查看"></a>五、本地HEXO查看</h2><p>运行命令”hexo s”，复制里面的http本地地址，用浏览器打开，即可能够看到新建的HEXO博客</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/s.png" alt></p>
+<p>我这个是使用cdn后的路径，也可以修改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar:https:&#x2F;&#x2F;cdn.jsdelivrnet&#x2F;gh&#x2F;yremp&#x2F;cdn@2.1.5&#x2F;img&#x2F;custom&#x2F;head.jpg</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-社交栏"><a href="#4-社交栏" class="headerlink" title="4.社交栏"></a>4.社交栏</h3><h4 id="1-个性签名"><a href="#1-个性签名" class="headerlink" title="1.个性签名"></a>1.个性签名</h4><p>这个子啊 <strong>/themes/sakura/config.yml</strong> 里面，由如下代码定义</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">description: 日出江花红胜火，春来江水绿如蓝。</span><br></pre></td></tr></table></figure>
+
+<p>直接修改即可</p>
+<p>2.内容</p>
+<p>没错仍然是 <strong>/themes/sakura/config.yml</strong>这个文件，找到</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#social  url ,img PC端配置</span><br><span class="line">social:</span><br><span class="line">	github:&#123;&#125;</span><br><span class="line">	wangyiyun:&#123;&#125;</span><br><span class="line">	zhihu:&#123;&#125;</span><br><span class="line">	qq:&#123;&#125;</span><br><span class="line">	wechat:&#123;&#125;</span><br><span class="line"></span><br><span class="line">#social url, img移动端配置</span><br><span class="line">msocial:</span><br><span class="line">    github:&#123;&#125;</span><br><span class="line">    weibo:&#123;&#125;</span><br><span class="line">    qq:&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>前面URL对应点击后跳转地址，后面是图标路径，注意这个不是本地路径，是使用了cdn后的路径，上一栏头像设置中游介绍。至于PC和移动端注释已经标示了，就不多做介绍。</p>
 
         </div>
         <!-- .entry-content -->
@@ -441,15 +430,15 @@
           
             <div class="post-nepre half previous">
           
-            <a href="/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" rel="prev">
+            <a href="/2020/05/24/%E4%B8%BAHEXO%E6%B7%BB%E5%8A%A0%E9%A2%9D%E5%A4%96%E5%8A%9F%E8%83%BD/" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/cat.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/cat.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
               <span class="label">
               Previous Post</span>
               <div class="info">
                 <h3>
-                写第一篇自己的博客</h3>
+                为HEXO添加额外功能</h3>
                 <hr>
               </div>
             </a>
@@ -459,15 +448,15 @@
           
             <div class="post-nepre half next">
           
-            <a href="/2020/03/15/the-adult-s-world/" rel="next">
+            <a href="/2020/04/01/%E5%86%85%E5%BF%83%E5%BC%BA%E5%A4%A7%EF%BC%8C%E6%98%AF%E6%B2%BB%E6%84%88%E4%B8%80%E5%88%87%E7%9A%84%E8%89%AF%E8%8D%AF/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D1379622413%2C4075003562%26fm%3D26%26gp%3D0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/u%3D1379622413%2C4075003562%26fm%3D26%26gp%3D0.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/strength.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/strength.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                welcome the new world</h3>
+                内心强大，是治愈一切的良药</h3>
                 <hr>
               </div>
             </a>
@@ -495,7 +484,7 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg" itemprop="image" alt="" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">

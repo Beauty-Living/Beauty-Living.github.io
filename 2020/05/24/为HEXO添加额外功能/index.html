@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">五步完成本地HEXO建立 | SpaceX</title>
+  <title itemprop="name">为HEXO添加额外功能 | SpaceX</title>
   
     <link rel="shortcut icon" href="/images/star.ico">
   
@@ -357,30 +357,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      五步完成本地HEXO建立</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg">
-          </a>
-        </span>
-        <span>
-          <a href=""></a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2020-3-21<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -388,27 +364,23 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
+          <header class="entry-header">
+            <h1 class="entry-title">为HEXO添加额外功能</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2020-5-24&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
         <div class="entry-content">
-          <p>创建本地项目进程非常简单，按照下面方式进行即可成功在本地创建hexo博客</p>
-<h2 id="一、搜索引擎搜索“git下载”-gt-进行git-的下载和安装"><a href="#一、搜索引擎搜索“git下载”-gt-进行git-的下载和安装" class="headerlink" title="一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装"></a>一、搜索引擎搜索“git下载”   -&gt;  进行git 的下载和安装</h2><p>如果觉得官网下载慢的可以用下面的网址：<a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/</a></p>
-<p>根据系统选择你下载的版本，最上面的为最新版本</p>
-<p>​                                                                </p>
-<h2 id="二、搜索引擎搜索“node-js下载”-gt-进行node-js的下载和安装"><a href="#二、搜索引擎搜索“node-js下载”-gt-进行node-js的下载和安装" class="headerlink" title="二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装"></a>二、搜索引擎搜索“node.js下载”   -&gt;  进行node.js的下载和安装</h2><p>根据步骤进行下载安装即可，同GIT安装，一路NEXT</p>
-<h2 id="三、本地运行cmd命令窗口"><a href="#三、本地运行cmd命令窗口" class="headerlink" title="三、本地运行cmd命令窗口"></a>三、本地运行cmd命令窗口</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p>​    分别运行以上两行命令，接着运行“hexo -v”如果显示版本号，则说明确定“git，node.js”均成功下载</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/-v.png" alt></p>
-<h2 id="三、安装HEXO"><a href="#三、安装HEXO" class="headerlink" title="三、安装HEXO"></a>三、安装HEXO</h2><p>(1)选择一个硬盘，在其根目录下创建一个“blog”文件夹，打开该文件夹</p>
-<p>(2)在“blog”文件夹中单击右键，选择“git bash here” -&gt; 运行一下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
-
-<p>接着运行“hexo -v”如果显示版本号，则说明已经成功安装</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/hexo.png" alt>                                                                </p>
-<h2 id="四、HEXO初始化"><a href="#四、HEXO初始化" class="headerlink" title="四、HEXO初始化"></a>四、HEXO初始化</h2><p>以上都成功后，输入命令“hexo init”</p>
-<h2 id="五、本地HEXO查看"><a href="#五、本地HEXO查看" class="headerlink" title="五、本地HEXO查看"></a>五、本地HEXO查看</h2><p>运行命令”hexo s”，复制里面的http本地地址，用浏览器打开，即可能够看到新建的HEXO博客</p>
-<p>​                                                                    <img src="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/s.png" alt></p>
+          <h2 id="一、添加通讯以及美化背景"><a href="#一、添加通讯以及美化背景" class="headerlink" title="一、添加通讯以及美化背景"></a>一、添加通讯以及美化背景</h2><h3 id="1-丰富背景样式"><a href="#1-丰富背景样式" class="headerlink" title="1.丰富背景样式"></a>1.丰富背景样式</h3><h4 id="1-浮层样式集合"><a href="#1-浮层样式集合" class="headerlink" title="1.浮层样式集合"></a>1.浮层样式集合</h4><p>（花瓣飘落、文字，爱心，连线，飘动的彩带）</p>
+<p>修改 \Sakura\layout_partial 目录下的footer.ejs</p>
+<h4 id="2-背景切换和访问量统计"><a href="#2-背景切换和访问量统计" class="headerlink" title="2.背景切换和访问量统计"></a>2.背景切换和访问量统计</h4><p>背景切换(pages功能)和访问量统计（网页计数）</p>
+<h3 id="2-在线通讯"><a href="#2-在线通讯" class="headerlink" title="2.在线通讯"></a>2.在线通讯</h3><p>hexo+DaoVoice实现网页在线通讯功能</p>
+<p>1.首先在DaoVoice官网上注册一个账号</p>
+<p>2.在应用设置，安装到往回走哪，仅匿名用户下获得ID，我们采用JS语言，选择对应复制</p>
+<p>3.在 sakura_config.yml中末尾加上</p>
+<p>4.在 \sakura\layout_partial 目录下的footer.ejs末尾加上：</p>
+<p>（依然是加快网站访问速度，将head的引用加在了foot中）</p>
 
         </div>
         <!-- .entry-content -->
@@ -438,36 +410,19 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/cat.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/cat.jpg">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                写第一篇自己的博客</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2020/03/15/the-adult-s-world/" rel="next">
+            <a href="/2020/05/24/HEXO%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D1379622413%2C4075003562%26fm%3D26%26gp%3D0.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="http://q7xzdxlzj.bkt.clouddn.com/u%3D1379622413%2C4075003562%26fm%3D26%26gp%3D0.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                welcome the new world</h3>
+                HEXO主题优化</h3>
                 <hr>
               </div>
             </a>
@@ -495,7 +450,7 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg" itemprop="image" alt="" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
