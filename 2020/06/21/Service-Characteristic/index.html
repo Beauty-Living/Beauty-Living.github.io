@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">SpaceX</title>
+  <title itemprop="name">Service Characteristic | SpaceX</title>
   
     <link rel="shortcut icon" href="/images/star.ico">
   
@@ -353,469 +353,140 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 0px;"></div>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
 <div id="content" class="site-content">
-  
-  <div class="notice" style="margin-top:60px">
-    <i class="iconfont icon-notification">
-    </i>
-    <div class="notice-content">出门千万条，安全第一条；口罩不规范，亲人两行泪</div>
-  </div>
-  
-  <div class="top-feature-row">
-  <h1 class="fes-title" style="font-family: 'Ubuntu', sans-serif;">
-  <i class="fa fa-anchor" aria-hidden="true">
-  </i>
-  服务!!</h1>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="https://yremp.live/hexo-sakura/" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/sakura.md.png">
-        </div>
-        <div class="info">
-          <h3>Sakura</h3>
-          <p>本站 hexo 主题</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="http://space.bilibili.com/271849279" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/bilibili.jpg">
-        </div>
-        <div class="info">
-          <h3>Bilibili</h3>
-          <p>博主的b站视频</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="http://www.likeliao.com/" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/wangshiwu.jpg">
-        </div>
-        <div class="info">
-          <h3>John的万事屋</h3>
-          <p>在线陪聊</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-</div>
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <h1 class="main-title" style="font-family: 'Ubuntu', sans-serif;">
-      <i class="fa fa-envira" aria-hidden="true"></i>
-      发现</h1>
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">Service Characteristic</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2020-6-21&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <p>一、服务、特性的概念</p>
+<p>开发板可提供多个服务，一个服务中可提供多个特性。例如开发板可提供小灯服务。服务可提供小灯亮，小灯灭，呼吸灯，流水灯等特性。</p>
+<p>二、服务、特性的获取</p>
+<ol>
+<li>功能实现</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//presence of services and characteristics</span></span><br><span class="line"><span class="keyword">var</span> has_accelerometer_service = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> has_accelerometer_data = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> has_led_service = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> has_led_martix_state = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> has_device_information_service = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> has_model_name_string = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//services UUID</span></span><br><span class="line">ACCELEROMETER_SERVICE = <span class="string">'e95d0753-251d-470a-a062-fa1922dfa9a8'</span>;</span><br><span class="line">LED_SERVICE = <span class="string">'e95dd91d-251d-470a-a062-fa1922dfa9a8'</span>;</span><br><span class="line">DEVICE_INFORMATION_SERVICE = <span class="string">'0000180a-0000-1000-8000-00805f9b34fb'</span>;</span><br><span class="line"><span class="comment">//characteristic UUID</span></span><br><span class="line">ACCELEROMETER_DATA = <span class="string">'e95dca4b-251d-470a-a062-fa1922dfa9a8'</span>;</span><br><span class="line">LED_MATRIX_STATE = <span class="string">'e95d8b88-251d-470a-a062-fa1922dfa9a8'</span>;</span><br><span class="line">MODEL_NUMBER_STRING = <span class="string">'00002a24-0000-1000-8000-00805f9b34fb'</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">discoverSvcsAndChars</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="built_in">console</span>.log(<span class="string">"discoverSvcsAndChars server= "</span> + connected_server);</span><br><span class="line">		connected_server.getPrimaryServices().then(<span class="function"><span class="params">services</span> =&gt;</span></span><br><span class="line">		&#123;</span><br><span class="line">			has_accelerometer_service = <span class="literal">false</span>;</span><br><span class="line">			has_led_service = <span class="literal">false</span>;</span><br><span class="line">			has_device_information_service = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">			services_discovered = <span class="number">0</span>;</span><br><span class="line">			services_count = <span class="literal">false</span>;</span><br><span class="line">			<span class="built_in">console</span>.log(<span class="string">"Got "</span> + services_count);</span><br><span class="line"></span><br><span class="line">			services.forEach(<span class="function"><span class="params">service</span> =&gt;</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(service.uuid == ACCELEROMETER_SERVICE)</span><br><span class="line">				&#123;</span><br><span class="line">					has_accelerometer_service = <span class="literal">true</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">if</span>(service.uuid == LED_SERVICE)</span><br><span class="line">				&#123;</span><br><span class="line">					has_led_service = <span class="literal">true</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">if</span>(service.uuid == DEVICE_INFORMATION_SERVICE)</span><br><span class="line">				&#123;</span><br><span class="line">					has_device_information_service = <span class="literal">true</span>;</span><br><span class="line">				&#125;</span><br><span class="line"></span><br><span class="line">				<span class="built_in">console</span>.log(<span class="string">'Getting Characteristics for service '</span> + service.uuid);</span><br><span class="line">				service.getCharacteristics()</span><br><span class="line">				.then(<span class="function"><span class="params">Characteristics</span> =&gt;</span></span><br><span class="line">				&#123;</span><br><span class="line">					<span class="built_in">console</span>.log(<span class="string">' &gt; Service: '</span> + service.uuid);</span><br><span class="line">					services_discovered++;</span><br><span class="line">					characteristics_discovered = <span class="number">0</span>;</span><br><span class="line">					characteristics_count = characteristics.length;</span><br><span class="line">					characteristics.forEach(<span class="function"><span class="params">characteristics</span> =&gt;</span> </span><br><span class="line">					&#123;</span><br><span class="line">						characteristics_discovered++;</span><br><span class="line">						<span class="built_in">console</span>.log(<span class="string">' &gt;&gt; Characteristic: '</span> + characteristics.uuid);</span><br><span class="line">						<span class="keyword">if</span>(characteristics.uuid == ACCELEROMETER_DATA)</span><br><span class="line">						&#123;</span><br><span class="line">							accelerometer_Data = characteristic;</span><br><span class="line">							has_accelerometer_data = <span class="literal">true</span>;</span><br><span class="line">						&#125;</span><br><span class="line">						<span class="keyword">if</span>(characteristics.uuid == LED_MATRIX_STATE)</span><br><span class="line">						&#123;</span><br><span class="line">							led_matrix_state = characteristic;</span><br><span class="line">							has_led_matrix_state = <span class="literal">true</span>;</span><br><span class="line">						&#125;</span><br><span class="line">						<span class="keyword">if</span>(characteristics.uuid == MODEL_NUMBER_STRING)</span><br><span class="line">						&#123;</span><br><span class="line">							model_number_string = characteristic;</span><br><span class="line">							has_model_name_string = <span class="literal">true</span>;</span><br><span class="line">						&#125;</span><br><span class="line">						<span class="keyword">if</span>(service_discovered == service_count &amp;&amp; characteristics_discovered == characteristics_count)</span><br><span class="line">						&#123;</span><br><span class="line">							<span class="built_in">console</span>.log(<span class="string">"FINFISHED DISCOVERY"</span>);</span><br><span class="line">							setDiscoveryStatus(<span class="literal">true</span>);</span><br><span class="line">						&#125;</span><br><span class="line">					&#125;);</span><br><span class="line">				&#125;);</span><br><span class="line">			&#125;);</span><br><span class="line">		&#125;);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>交互界面</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">border</span>=<span class="string">""</span> <span class="attr">cellspacing</span>=<span class="string">""</span> <span class="attr">cellpadding</span>=<span class="string">""</span> <span class="attr">border</span>=<span class="string">"1"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">id</span>=<span class="string">"status_connected"</span>&gt;</span>false<span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">th</span>&gt;</span>Service Discovery Completed<span class="tag">&lt;/<span class="name">th</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2020/06/21/Reading-and-Writing-Characteristics/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                Reading and Writing Characteristics</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2020/05/24/%E4%B8%BAHEXO%E6%B7%BB%E5%8A%A0%E9%A2%9D%E5%A4%96%E5%8A%9F%E8%83%BD/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                为HEXO添加额外功能</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.1/gitalk.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yremp/yremp-css@1.3/gitalk.css">
+  <div id="gitalk-container"></div>
+  <script type="text/javascript">
+      var gitalk = new Gitalk({
+          clientID: 'dad303d1415d2784e107',
+          clientSecret: 'e486408be3aca5af8869d805976dbdf4d88289b4',
+          id: window.location.pathname,
+          repo: 'gittalk.github.io',
+          owner: 'Beauty-Living',
+          admin: 'Beauty-Living'
+      })
+      gitalk.render('gitalk-container')
+    </script>
 
-  <div class="post-thumb">
-    <a href="/2020/06/21/Reading-and-Writing-Characteristics/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-6-21 07:06</div>
-      <a href="/2020/06/21/Reading-and-Writing-Characteristics/" class="post-title">
-        <h3>Reading and Writing Characteristics</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/06/21/Reading-and-Writing-Characteristics/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
+
+
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author"></a>
+            </h3>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/06/21/Service-Characteristic/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-6-21 07:06</div>
-      <a href="/2020/06/21/Service-Characteristic/" class="post-title">
-        <h3>Service Characteristic</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/06/21/Service-Characteristic/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/05/24/%E4%B8%BAHEXO%E6%B7%BB%E5%8A%A0%E9%A2%9D%E5%A4%96%E5%8A%9F%E8%83%BD/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-5-24 23:05</div>
-      <a href="/2020/05/24/%E4%B8%BAHEXO%E6%B7%BB%E5%8A%A0%E9%A2%9D%E5%A4%96%E5%8A%9F%E8%83%BD/" class="post-title">
-        <h3>为HEXO添加额外功能</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/05/24/%E4%B8%BAHEXO%E6%B7%BB%E5%8A%A0%E9%A2%9D%E5%A4%96%E5%8A%9F%E8%83%BD/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/05/24/HEXO%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-5-24 23:05</div>
-      <a href="/2020/05/24/HEXO%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/" class="post-title">
-        <h3>HEXO主题优化</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/05/24/HEXO%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/04/01/%E5%86%85%E5%BF%83%E5%BC%BA%E5%A4%A7%EF%BC%8C%E6%98%AF%E6%B2%BB%E6%84%88%E4%B8%80%E5%88%87%E7%9A%84%E8%89%AF%E8%8D%AF/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/strength.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-4-1 21:04</div>
-      <a href="/2020/04/01/%E5%86%85%E5%BF%83%E5%BC%BA%E5%A4%A7%EF%BC%8C%E6%98%AF%E6%B2%BB%E6%84%88%E4%B8%80%E5%88%87%E7%9A%84%E8%89%AF%E8%8D%AF/" class="post-title">
-        <h3>内心强大，是治愈一切的良药</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E9%9A%8F%E7%AC%94/">随笔<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/04/01/%E5%86%85%E5%BF%83%E5%BC%BA%E5%A4%A7%EF%BC%8C%E6%98%AF%E6%B2%BB%E6%84%88%E4%B8%80%E5%88%87%E7%9A%84%E8%89%AF%E8%8D%AF/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/timg.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-3-22 10:03</div>
-      <a href="/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/" class="post-title">
-        <h3>HEXO博客主题更换及美化</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/">建立hexo博客入门<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/03/22/HEXO%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/timg%281%29.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-3-21 21:03</div>
-      <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/" class="post-title">
-        <h3>本地HEXO上传至公共网页</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/">建立hexo博客入门<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0HEXO%E4%B8%8A%E4%BC%A0%E8%87%B3%E5%85%AC%E5%85%B1%E7%BD%91%E9%A1%B5/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/cat.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-3-21 20:03</div>
-      <a href="/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="post-title">
-        <h3>写第一篇自己的博客</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/">建立hexo博客入门<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/03/21/%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D3318918423%2C4054680797%26fm%3D26%26gp%3D0.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-3-21 20:03</div>
-      <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/" class="post-title">
-        <h3>五步完成本地HEXO建立</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/%E5%BB%BA%E7%AB%8Bhexo%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/">建立hexo博客入门<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/03/21/%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%8Bhexo%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99%E8%A7%A3%E6%9E%90/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-    
-<article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
-  <div class="post-thumb">
-    <a href="/2020/03/15/the-adult-s-world/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://q7xzdxlzj.bkt.clouddn.com/u%3D1379622413%2C4075003562%26fm%3D26%26gp%3D0.jpg">
-    </a>
-  </div>
-  <div class="post-content-wrap">
-    <div class="post-content">
-      <div class="post-date">
-        <i class="iconfont icon-time">
-        </i>2020-3-15 11:03</div>
-      <a href="/2020/03/15/the-adult-s-world/" class="post-title">
-        <h3>welcome the new world</h3>
-      </a>
-      <div class="post-meta">
-        <span><i class="fa fa-tags"></i>
-        
-            <a href="/tags/web/">web<em>·</em></a>
-          
-        </span>
-        <span>
-          <i class="iconfont icon-file"></i>
-          
-        </span>
-      </div>
-      <div class="float-content">
-        <p></p>
-        <div class="post-bottom">
-          <a href="/2020/03/15/the-adult-s-world/" class="button-normal">
-            <i class="iconfont icon-caidan"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-  
-
-
-    </main>
-      <!-- 首页默认取最最新文章集 -->
-    <!-- 
-      <nav class="navigator">
-        
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next</a>
-      </nav>
-     -->
-  </div>
-  
-    <div id="pagination"><a href="/page/2/" class="">Previous</a></div>
-  
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
